@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>js form</title>
+</head>
+
+<body>
+    <h1>Practice form</h1>
+
+    <div class="list-container">
+        <form>
+            <div>
+                <label for="">Tittle</label> <br>
+                <input class="tittle" id="tittle" type="text" type="text">
+            </div>
+            <div>
+                <label for="">Author</label> <br>
+                <input class="author" id="author" type="text" type="email">
+            </div>
+            <div>
+                <label for="">Year</label> <br>
+                <input class="year" id="year" type="text" type="number">
+            </div>
+            <input type="submit" class="btn">
+        </form>
+    </div>
+    <div class="list-container">
+        <table>
+            <thead>
+                <tr class="table-row">
+                    <th>Tittle</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- <tr class="table-row">
+                    <th>Tittle</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

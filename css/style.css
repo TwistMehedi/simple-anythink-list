@@ -1,0 +1,27 @@
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle{
+    width: 500px;
+    margin-bottom: 10px;
+}
+.author{
+    width: 500px;
+    margin-bottom: 10px;
+}
+.year{
+    width: 500px;
+    margin-bottom: 10px;
+}
+/* .btn{
+    width: 508px;
+    background-color: yellowgreen;
+} */
+.table-row th{
+    padding: 20px 90px;
+}
+.book-list tr th{
+    padding: 20px 90px;
+}
